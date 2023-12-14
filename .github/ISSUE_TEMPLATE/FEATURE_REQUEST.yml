@@ -1,0 +1,24 @@
+name: Feature Request
+description: File a feature request
+title: "[Feature]: "
+labels: ["Feature"]
+assignees:
+  - siriusu
+body:
+  - type: input
+    id: feature_outline
+    attributes:
+      label: 機能の概要
+      description: 追加する機能の概要
+      placeholder: タスクを追加する
+    validations:
+      required: false
+  - type: textarea
+    id: detail
+    attributes:
+      label: 機能の詳細
+      description: 追加する機能の詳細
+      value: >
+        - [ ] 
+    validations:
+      required: true

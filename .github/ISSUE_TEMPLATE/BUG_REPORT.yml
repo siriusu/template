@@ -1,0 +1,22 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["Bug"]
+assignees:
+  - siriusu
+body:
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: バグの詳細
+      description: 発生したバグの詳細
+      placeholder: どんなバグが発生したのか
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 関連するログ
+      description: 発生したバグに関連するログを添付する
+      render: Shell
