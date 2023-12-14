@@ -16,9 +16,32 @@ body:
   - type: textarea
     id: detail
     attributes:
-      label: 機能の詳細
-      description: 追加する機能の詳細
-      value: >
-        - [ ] 
+      label: 必要なタスク
+      description: 追加する機能を実装するのに必要なタスクのリスト
+      placeholder: "- [ ] 実装するタスクのリスト"
+      value: "- [ ] タスク 1" 
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: デザインの見本
+      description: デザインの見本へのリンク
+      placeholder: "[デザインの見本](url)"
+      value: "[デザインの見本](url)"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: スクリーンショット
+      description: 見本となるスクリーンショットがあれば添付する
+      placeholder: "ここにスクリーンショットを添付する"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 関連するチケット
+      description: 関連するチケット、又は以前のチケットへのリンク
+      placeholder: "- #"
+      value: "- #"
+    validations:
+      required: false
