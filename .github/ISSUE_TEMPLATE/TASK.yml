@@ -3,7 +3,8 @@ description: タスクを設定する
 title: "[TASK]: "
 labels:
   - "task"
-assignees: siriusu
+assignees:
+  - siriusu
 
 body:
   - type: textarea

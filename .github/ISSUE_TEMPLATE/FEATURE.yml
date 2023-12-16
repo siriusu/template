@@ -3,7 +3,8 @@ description: プロジェクトに機能を要望する
 title: "[FEATURE]: "
 labels:
   - "feature"
-assignees: siriusu
+assignees:
+  - siriusu
 
 body:
   - type: textarea

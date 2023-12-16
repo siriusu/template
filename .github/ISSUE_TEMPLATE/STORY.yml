@@ -3,7 +3,8 @@ description: どのような処理を実装すれば機能を実現できるか
 title: "[STORY]: "
 labels:
   - "story"
-assignees: siriusu
+assignees:
+  - siriusu
 
 body:
   - type: textarea
