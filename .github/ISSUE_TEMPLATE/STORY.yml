@@ -1,0 +1,28 @@
+name: Story
+description: どのような処理を実装すれば機能を実現できるか
+title: "[STORY]: "
+labels:
+  - "story"
+assignees: siriusu
+
+body:
+  - type: textarea
+    attributes:
+      label: 実現方法/UI
+      description: このストーリーを実現するための方法
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 受け入れ条件/完了の定義
+      description: このストーリーが達成されたことを確認する条件
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 詳細タスク
+      description: このストーリーを実現するのに必要なタスク
+      placeholder: "- [ ] タスク"
+      value: "- [ ]"
+    validations:
+      required: true

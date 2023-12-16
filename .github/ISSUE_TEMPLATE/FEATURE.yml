@@ -1,0 +1,28 @@
+name: 機能要望
+description: プロジェクトに機能を要望する
+title: "[FEATURE]: "
+labels:
+  - "feature"
+assignees: siriusu
+
+body:
+  - type: textarea
+    attributes:
+      label: 機能の説明
+      description: この機能で実現したいことを明確かつ簡潔に説明する
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Story
+      description: この機能を実現する為にどのような処理を実装する必要があるか
+      placeholder: "- [ ] 機能を実装するのに必要な処理"
+      value: "- [ ]"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 補足
+      description: 補足事項があれば
+    validations:
+      required: false

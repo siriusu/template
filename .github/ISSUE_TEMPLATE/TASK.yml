@@ -1,0 +1,22 @@
+name: TASK
+description: タスクを設定する
+title: "[TASK]: "
+labels:
+  - "task"
+assignees: siriusu
+
+body:
+  - type: textarea
+    attributes:
+      label: タスクの内容
+      description: タスクの内容を明確かつ簡潔に説明する
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 作業
+      description: 作業内容のリスト
+      placeholder: "- [ ]"
+      value: "- [ ]"
+    validations:
+      required: true
