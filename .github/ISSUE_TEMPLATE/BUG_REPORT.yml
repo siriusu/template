@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug report
+description: バグ発生の報告
 title: "[Bug]: "
 labels:
   - "bug"

@@ -1,4 +1,4 @@
-name: TASK
+name: Task
 description: タスクを設定する
 title: "[TASK]: "
 labels:
