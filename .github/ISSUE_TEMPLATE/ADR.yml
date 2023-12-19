@@ -1,0 +1,40 @@
+name: Architecture Decision Records
+description: プロジェクトの決定の記録
+title: "[ADR]: "
+labels:
+  - "adr"
+assignees:
+  - siriusu
+body:
+  - type: textarea
+    attributes:
+      label: プロジェクト
+      description: プロジェクトの概要
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 文脈
+      description: この決定の生まれた背景
+      placeholder: この決定の背景やコンテキスト、決め手、制限等
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 採用状況
+      description: 採用/不採用を記録
+      placeholder: 提案したい変更点、あるいは合意が交わされた変更点
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 決定事項
+      description: 決定になった場合の想定している運用や制約、再評価となる条件
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 結果
+      description: 意思決定の結果を評価したタイミングで追記する
+    validations:
+      required: false
